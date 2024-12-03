@@ -20,6 +20,9 @@
       href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    
+
+    
     <title>Homepages</title>
     <style>
       body {
@@ -42,11 +45,31 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: bold;
-        font-size: 85px;
+        font-size: 60px;
         margin-top: 1.5em;
+        margin-bottom:0;
       }
+      .con{
+        margin-left:5em;
+      }
+      p{
+        margin-left:0.4em;
+        font-weight:bold;
+      }
+      .con,p{
+        display:flex;
+        align-items:center;
+        font-size:25px;
+        
+        
+
+
+      }
+      
     </style>
+    
   </head>
+
   <body>
     <!-- navbar -->
     <nav
@@ -83,35 +106,50 @@
             </li>
           </ul>
 
-          <form role="search">
-            <input
-              class="form-control"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
-          <button
-            type="button"
-            class="btn btn-outline-primary ms-3"
-            style="color: black; border-color: white"
-          >
-            Login
-          </button>
-          <button
-            type="button"
-            class="btn btn-outline-primary ms-3"
-            style="color: black; border-color: white"
-          >
-            Sign up
-          </button>
+     
+        
+        <a class="btn btn-outline-primary ms-3" href="loginPage.php" style="color: black; border-color: white">Login</a>
+        
+          <a class="btn btn-outline-primary ms-3" href="registrationPage.php" style="color: black; border-color: white">Sign up</a>
         </div>
-      </div>
+      </div>  
     </nav>
+    
+    <div class="con">
+    
+      <div class="image">
 
-    <h1 class="gradient-text">
-      Welcome to <br />
-      Vending Machine
-    </h1>
+        <img src="images/minilogo.png" alt="logo">
+      </div>
+
+      <div>
+        <h1 class="gradient-text">
+          Welcome to <br />
+          Vending Machine
+        </h1>
+        <p>vm innovators</p>
+
+      </div>
+      
+     
+
+    </div>
+    
   </body>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/674d97fa4304e3196aeb5299/1ie3hjbfh';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+ 
+  
+
 </html>
